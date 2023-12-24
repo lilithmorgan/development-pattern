@@ -1,36 +1,17 @@
 graph TD
-
-A[Início] --> B[Planejamento e Análise de Requisitos]
-B --> C[Design e Modelagem]
-
-C --> D1[Modelagem de Ameaças]
-C --> D2[Design de Arquitetura]
-C --> D3[Design de UI/UX]
-
-D1 --> E[Desenvolvimento e Codificação]
-D2 --> E
-D3 --> E
-
-E --> F[Testes]
-F --> G1[Testes Unitários e de Integração]
-F --> G2[Testes de Sistema]
-F --> G3[Testes de Aceitação do Usuário]
-
-G1 --> H[DevSecOps e Segurança]
-G2 --> H
-G3 --> H
-
-H --> I[Implementação de CI/CD]
-I --> J[Deploy e Entrega Contínua]
-J --> K[Monitoramento e Manutenção]
-
-K --> L[Feedback e Iteração]
-L --> M[Documentação e Conhecimento]
-M --> N[Gestão de Projeto]
-N --> O[Feedback e Avaliação]
-
-O --> P[Fim do Ciclo de Desenvolvimento]
-P --> B[Planejamento para Novo Ciclo - Iterativo]
-
-classDef default fill:#d8e8f9,stroke:#333,stroke-width:1px;
-class A,B,C,D1,D2,D3,E,F,G1,G2,G3,H,I,J,K,L,M,N,O,P default;
+    A[Início]
+    A --> B[Planejamento e Análise de Requisitos]
+    B --> C[Design e Modelagem]
+    C --> |Modelagem de Ameaças| D[Desenvolvimento e Codificação]
+    C --> |Design de Arquitetura| D
+    C --> |Design de UI/UX| D
+    D --> E[Testes]
+    E --> F[DevSecOps e Segurança]
+    F --> G[CI/CD]
+    G --> H[Deploy e Entrega Contínua]
+    H --> I[Monitoramento e Manutenção]
+    I --> J[Feedback e Iteração]
+    J --> K[Documentação e Conhecimento]
+    K --> L[Gestão de Projeto]
+    L --> M[Feedback e Avaliação]
+    M --> N[Próximo Ciclo]
