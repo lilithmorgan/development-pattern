@@ -40,6 +40,23 @@ graph TD
 ### 1. Ideação e Conceituação
 Nesta fase inicial, ideias são geradas e conceitos preliminares são explorados. É um momento crucial para entender as necessidades do projeto e definir objetivos claros.
 
+Nese passo é fundamental idenficar as necessidades e problemas que o software atende
+- Identificar o problema ou necessidade que o software pretende resolver, isto pode ter vindo de feedback de usuario, analise de mercado, inovações tecnolócias ou necessidades internas da organização.
+- Realizar uma pesquisa de mercado ou na companhia para entender as necessidades dos usuários e identificar as lacunas nos produtos existentes, incluindo analise de concorrentes, tendencias de mercado e potencial mercado.
+
+Também é importante ter neste momento um tempo para geração de ideias e pode ser feito de algumas formas:
+- Realizando sessões de brainstorming com a equipe e stakeholders. Podem ser incruídos usuários se for possível gerando uma ampla variedade de ideias, mesmo que não sejam utilizadas, sem julgamentos ou críticas, apenas colocando à mesa.
+- Realizar workshops com stakeholders e usuários para co-criar e/ou refinar as ideias. O objetivo é garantir que as necessidades dos usuários estejam no centro  do processo de desenvolvimento.   
+
+Analisar e Selecionar as ideias é o passo onde definiremos o que fará parte do software, fazemos isto com 3 passos
+- Analisando a viabilidade tecnica, financeira e operacional de cada ideia. Isto inclui considerações sobre tecnologia, custo, recursos necessários e tempo de desenvolvimento.
+- Priorizando as ideias com base em critérios como valor para o usuário, alinhamento com objetivos de negócios, inovação e diferenciação competitiva.
+- Escolhendo as ideias mais promissoras para desenvolver mais detalhadamente. Em alguns casos, pode ser útil criar protótipos rápidos ou conceitos para testar a viabilidade.
+
+Defir o conceito da aplicação:
+- Transformar a ideia selecionada em um conceito claro. Isso deve incluir a definição de funcionalidades chave, público-alvo, objetivos do software e como ele se diferencia de produtos existentes.
+- Criar storyboards ou wireframes para visualizar o conceito do software. Isso ajuda a entender o fluxo do usuário e as funcionalidades principais.
+
 ### 2. Planejamento e Análise de Requisitos Detalhada
 Envolve a coleta e análise detalhada dos requisitos dos stakeholders. Os requisitos funcionais e não funcionais são documentados para formar a base do projeto.
 
