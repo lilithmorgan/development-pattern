@@ -47,7 +47,7 @@ Um fluxo de analise de requisitos modelo pode ser seguinda
 
 ```mermaid
 graph TD
-    A[Defição do Objetivo do Software] --> B[Identificação dos Stakeholders]
+    B[Identificação dos Stakeholders]
     B --> C[Entrevistas e Reuniões]
     C --> D[Analise dos dados obtidos e documentos]
     D --> E[Documentação dos Requisitos]
