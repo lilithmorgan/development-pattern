@@ -43,6 +43,23 @@ Nesta fase inicial, ideias são geradas e conceitos preliminares são explorados
 ### 2. Planejamento e Análise de Requisitos Detalhada
 Envolve a coleta e análise detalhada dos requisitos dos stakeholders. Os requisitos funcionais e não funcionais são documentados para formar a base do projeto.
 
+Um fluxo de analise de requisitos modelo pode ser seguinda
+
+```mermaid
+graph TD
+    A[Defição do Objetivo do Software] --> B[Identificação dos Stakeholders]
+    B --> C[Entrevistas e Reuniões]
+    C --> D[Analise dos dados obtidos e documentos]
+    D --> E[Documentação dos Requisitos]
+    E --> F[Priorização dos Requisitos]
+    F --> G[Criação de Personas para testes]
+    G --> H[Validação dos Requisitos]
+    H --> I[Revisões dos Requisitos e continuidade]
+    I --> J[Definição das Ferramentas]
+    J --> K[Definição da Comunicação]
+    K --> L[Planejamento de Manutenção e Ajustes]
+```
+
 ### 3. Avaliação de Riscos e Conformidade
 Antes de prosseguir para o design e desenvolvimento, realizamos uma avaliação de riscos e verificamos a conformidade com regulamentações relevantes.
 
