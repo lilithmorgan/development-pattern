@@ -40,22 +40,23 @@ graph TD
 ### 1. Ideação e Conceituação
 Nesta fase inicial, ideias são geradas e conceitos preliminares são explorados. É um momento crucial para entender as necessidades do projeto e definir objetivos claros.
 
-Nese passo é fundamental idenficar as necessidades e problemas que o software atende
-- Identificar o problema ou necessidade que o software pretende resolver, isto pode ter vindo de feedback de usuario, analise de mercado, inovações tecnolócias ou necessidades internas da organização.
-- Realizar uma pesquisa de mercado ou na companhia para entender as necessidades dos usuários e identificar as lacunas nos produtos existentes, incluindo analise de concorrentes, tendencias de mercado e potencial mercado.
+Neste passo, é fundamental identificar as necessidades e problemas que o software atende:
+- Identificar o problema ou necessidade que o software pretende resolver, o que pode ter vindo de feedback de usuário, análise de mercado, inovações tecnológicas ou necessidades internas da organização.
+- Realizar uma pesquisa de mercado ou na companhia para entender as necessidades dos usuários e identificar as lacunas nos produtos existentes, incluindo análise de concorrentes, tendências de mercado e potencial de mercado.
 
-Também é importante ter neste momento um tempo para geração de ideias e pode ser feito de algumas formas:
-- Realizando sessões de brainstorming com a equipe e stakeholders. Podem ser incruídos usuários se for possível gerando uma ampla variedade de ideias, mesmo que não sejam utilizadas, sem julgamentos ou críticas, apenas colocando à mesa.
-- Realizar workshops com stakeholders e usuários para co-criar e/ou refinar as ideias. O objetivo é garantir que as necessidades dos usuários estejam no centro  do processo de desenvolvimento.   
+Também é importante, neste momento, reservar um tempo para a geração de ideias, que pode ser feito de algumas formas:
+- Realizando sessões de brainstorming com a equipe e stakeholders. Podem ser incluídos usuários, se possível, gerando uma ampla variedade de ideias, mesmo que não sejam utilizadas, sem julgamentos ou críticas, apenas colocando à mesa.
+- Realizar workshops com stakeholders e usuários para co-criar e/ou refinar as ideias. O objetivo é garantir que as necessidades dos usuários estejam no centro do processo de desenvolvimento.   
 
-Analisar e Selecionar as ideias é o passo onde definiremos o que fará parte do software, fazemos isto com 3 passos
-- Analisando a viabilidade tecnica, financeira e operacional de cada ideia. Isto inclui considerações sobre tecnologia, custo, recursos necessários e tempo de desenvolvimento.
+Analisar e Selecionar as ideias é o passo onde definiremos o que fará parte do software, fazemos isto com 3 passos:
+- Analisando a viabilidade técnica, financeira e operacional de cada ideia. Isto inclui considerações sobre tecnologia, custo, recursos necessários e tempo de desenvolvimento.
 - Priorizando as ideias com base em critérios como valor para o usuário, alinhamento com objetivos de negócios, inovação e diferenciação competitiva.
 - Escolhendo as ideias mais promissoras para desenvolver mais detalhadamente. Em alguns casos, pode ser útil criar protótipos rápidos ou conceitos para testar a viabilidade.
 
-Defir o conceito da aplicação:
+Definir o conceito da aplicação:
 - Transformar a ideia selecionada em um conceito claro. Isso deve incluir a definição de funcionalidades chave, público-alvo, objetivos do software e como ele se diferencia de produtos existentes.
 - Criar storyboards ou wireframes para visualizar o conceito do software. Isso ajuda a entender o fluxo do usuário e as funcionalidades principais.
+
 
 ### 2. Planejamento e Análise de Requisitos Detalhada
 Envolve a coleta e análise detalhada dos requisitos dos stakeholders. Os requisitos funcionais e não funcionais são documentados para formar a base do projeto.
@@ -76,6 +77,29 @@ graph TD
     J --> K[Definição da Comunicação]
     K --> L[Planejamento de Manutenção e Ajustes]
 ```
+
+- Identificação dos Stakeholders: Identifique todas as partes interessadas no projeto, incluindo usuários finais, gerentes, equipe de TI e outras partes que possam influenciar ou ser afetadas pelo projeto, tanto positiva quanto negativamente.
+
+- Entrevistas e Reuniões: Conduza entrevistas e reuniões com os stakeholders para entender suas necessidades e expectativas. Faça perguntas abertas para obter informações detalhadas.
+
+- Análise dos Dados Obtidos e Documentos: Utilize diversas técnicas de elicitação de requisitos, como os dados obtidos nos passos anteriores, análise de documentos existentes, observação, questionários e workshops.
+
+- Documentação dos Requisitos: Registre todos os requisitos coletados. Isso pode incluir requisitos funcionais (o que o software deve fazer), requisitos não funcionais (como desempenho, segurança, usabilidade) e restrições.
+
+- Priorização dos Requisitos: Nem todos os requisitos têm a mesma importância. Trabalhe com os stakeholders para priorizar os requisitos, identificando o que é essencial, desejável ou opcional.
+
+- Criação de Personas para Testes: Desenvolva personas para representar os diferentes tipos de usuários. Isso ajuda a entender melhor como eles interagem com o software e quais funcionalidades são mais importantes para eles.
+
+- Validação dos Requisitos: Apresente os requisitos documentados aos stakeholders para garantir que todos os requisitos importantes foram capturados e estão corretos.
+
+- Revisões dos Requisitos e Continuidade: Os requisitos podem mudar ao longo do tempo devido a mudanças nas necessidades dos negócios ou do mercado. Portanto, é importante revisar e atualizar os requisitos regularmente.
+
+- Definição das Ferramentas: Defina as ferramentas adequadas, tanto para gerenciamento de requisitos como para manter o projeto.
+
+- Definição da Comunicação: Garanta que haja uma comunicação efetiva e contínua entre a equipe de desenvolvimento e os stakeholders para evitar mal-entendidos e garantir que o produto final atenda às expectativas. Defina quem é responsável por cada informação, garanta que seja documentada em local organizado e defina o ChatOps para alertas e comunicação.
+
+- Planejamento de Manutenção e Ajustes: Esteja preparado para fazer ajustes conforme necessário, pois novos requisitos podem surgir e outros podem se tornar obsoletos.
+
 
 ### 3. Avaliação de Riscos e Conformidade
 Antes de prosseguir para o design e desenvolvimento, realizamos uma avaliação de riscos e verificamos a conformidade com regulamentações relevantes.
