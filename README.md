@@ -102,7 +102,58 @@ graph TD
 
 
 ### 3. Avaliação de Riscos e Conformidade
-Antes de prosseguir para o design e desenvolvimento, realizamos uma avaliação de riscos e verificamos a conformidade com regulamentações relevantes.
+Antes de prosseguir para o design e desenvolvimento, realizamos uma avaliação de riscos e verificamos a conformidade com regulamentações relevantes.4
+
+Para garantir que todos os aspectos críticos sejam considerados e gerenciados de forma eficaz os passos abaixo são recomendados:
+ 
+ ```mermaid
+ flowchart TD
+    A[Identificação de Requisitos de Conformidade] --> B[Avaliação de Riscos]
+    B --> C[Análise de Impacto nos Negócios]
+    C --> D[Desenvolvimento de Estratégias de Mitigação]
+    D --> E[Implementação e Monitoramento]
+    E --> F[Auditoria e Avaliação]
+    F --> G[Documentação e Relatórios]
+ ```
+
+*Identificação de Requisitos de Conformidade:*
+- Levantamento de Normas e Leis Aplicáveis: Identifique todas as normas, leis e regulamentações relevantes para o projeto, incluindo ISO Familia 27000, NIST, SOX, LGPD, GDPR, entre outras.
+
+- Documentação de Requisitos Específicos: Liste os requisitos específicos de cada norma ou lei aplicável ao contexto do projeto.
+
+*Avaliação de Riscos*
+- Identificação de Ativos: Identifique todos os ativos que serão afetados pelo projeto (dados, sistemas, processos).
+
+- Análise de Vulnerabilidades: Avalie os ativos para identificar vulnerabilidades potenciais ou existentes.
+
+- Avaliação de Ameaças: Identifique ameaças que podem explorar essas vulnerabilidades.
+
+- Determinação do Impacto: Avalie o impacto potencial de cada ameaça identificada.
+
+*Análise de Impacto nos Negócios*
+- Avaliação do Impacto Financeiro: Estime o impacto financeiro em caso de não conformidade ou falhas de segurança.
+
+- Impacto na Reputação: Considere o impacto na reputação da empresa em casos de violação de dados ou não conformidade.
+
+*Desenvolvimento de Estratégias de Mitigação*
+- Definição de Controles: Estabeleça controles de segurança apropriados para mitigar riscos identificados.
+
+- Plano de Resposta a Incidentes: Desenvolva um plano para responder a incidentes de segurança.
+
+*Implementação e Monitoramento*
+- Implementação de Controles: Implemente os controles de segurança.
+
+- Monitoramento Contínuo: Monitore regularmente durante todo o projeto a eficácia dos controles e a aderência às normas.
+
+*Auditoria e Avaliação*
+- Auditorias Regulares: Realize auditorias periódicas durante todo o projeto para verificar a conformidade com as normas.
+
+- Avaliação Contínua: Avalie continuamente os riscos e atualize as estratégias de mitigação conforme necessário.
+
+*Documentação e Relatórios*
+- Documentação Detalhada: Mantenha uma documentação completa das análises de risco, estratégias de mitigação e registros de auditorias.
+
+- Relatórios para Stakeholders: Prepare relatórios regulares para stakeholders sobre o status da conformidade e gestão de riscos.
 
 ### 4. Design e Modelagem
 Inclui a modelagem de ameaças, design de arquitetura e design de UI/UX. Esta fase define como o sistema será estruturado e como a interface com o usuário será.
